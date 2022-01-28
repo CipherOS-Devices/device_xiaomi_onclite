@@ -12,6 +12,9 @@ vidc.enc.dcvs.extra-buff-count=2
 # Charger
 ro.charger.disable_init_blank=true
 
+# Cipher
+ro.cipher.maintainer=Aditya Singh
+
 # CnE
 persist.vendor.cne.feature=1
 
