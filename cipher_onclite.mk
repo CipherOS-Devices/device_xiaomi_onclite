@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Cipher stuff.
 $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
+# CipherOS
+CIPHER_OFFICIAL := true
+
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
 
